@@ -1,0 +1,6 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
+    <StackLayout>
+        <label text="This app was created bij VIVES students for the corse Mobile Apps" />
+        <label text="Thank us later" textWrap="true" />
+    </StackLayout>
+</Page>
