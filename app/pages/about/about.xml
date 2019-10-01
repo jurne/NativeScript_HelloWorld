@@ -1,6 +1,10 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden="true">
     <StackLayout>
-        <label text="This app was created bij VIVES students for the corse Mobile Apps" />
-        <label text="Thank us later" textWrap="true" />
+        <label class="title" text="About us" textWrap="true" />
+
+        <StackLayout class="content">
+            <label text="This app was created bij VIVES students for the corse Mobile Apps" textWrap="true" />
+            <label text="Thank us later" textWrap="true" />
+        </StackLayout>
     </StackLayout>
 </Page>
