@@ -7,5 +7,6 @@ let navigate = function(page) {
 
 exports.onAboutTap = () => navigate('about');
 exports.onCantactUsTap = () => navigate('contact-us');
-exports.onRepoTap = () => navigate('repos')
-exports.onProfileTap = () => navigate('profile')
+exports.onRepoTap = () => navigate('repos');
+exports.onProfileTap = () => navigate('profile');
+exports.onImagesTap = () => navigate('images');

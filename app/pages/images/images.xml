@@ -1,0 +1,32 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
+    <ScrollView>
+        <StackLayout>
+            <Image src="res://greta" stretch="none" />
+            
+            
+            <Label text="144 vs 144 px" textWrap="true" />
+            <Image src="https://via.placeholder.com/150" width="108"/>
+            <StackLayout orientation="horizontal">
+                <Image src="https://via.placeholder.com/150" width="108px" />
+                <Image src="https://via.placeholder.com/150" width="108px" />
+                <Image src="https://via.placeholder.com/150" width="108px" />
+                <Image src="https://via.placeholder.com/150" width="108px" />
+            </StackLayout>
+
+            <Label text="Full screen (424 dip) versus 424px" textWrap="true" />
+            <Image src="https://via.placeholder.com/150" width="424" />
+            <Image src="https://via.placeholder.com/150" width="424px" />
+
+            <Label text="144 divided by 4" textWrap="true" />
+            <Image src="https://via.placeholder.com/150" width="108"/>
+            <StackLayout orientation="horizontal">
+                <Image src="https://via.placeholder.com/150" width="72px" />
+                <Image src="https://via.placeholder.com/150" width="72px" />
+                <Image src="https://via.placeholder.com/150" width="72px" />
+                <Image src="https://via.placeholder.com/150" width="72px" />
+            </StackLayout>
+            
+            
+        </StackLayout>
+    </ScrollView>
+</Page>
