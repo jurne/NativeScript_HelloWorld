@@ -7,7 +7,7 @@
                 <Label text="Name" textWrap="true" />
             </StackLayout>
             <StackLayout row="0" col="1">
-                 <Label text="Jurne Decadt" textWrap="true" />
+                 <Label text="{{ name }}" textWrap="true" />
                 
             </StackLayout>
             <StackLayout row="1" col="0">
@@ -15,22 +15,22 @@
                 
             </StackLayout>
             <StackLayout row="1" col="1">
-                 <Label text="Jurne" textWrap="true" />
+                 <Label text="{{ nickname }}" textWrap="true" />
                 
             </StackLayout>
             <StackLayout row="2" col="0">
                 <Label text="Number of repos" textWrap="true" />
             </StackLayout>
             <StackLayout row="2" col="1">
-                <Label text="42" textWrap="true" />
+                <Label text="{{ repositories }}" textWrap="true" />
             </StackLayout>
              <StackLayout row="3" col="0">
                 <Label text="Number of followers" textWrap="true" />
             </StackLayout>
             <StackLayout row="3" col="1">
-                <Label text="3" textWrap="true" />
+                <Label text="{{ followers }}" textWrap="true" />
             </StackLayout>
-             <StackLayout row="4" colspan="1">
+             <StackLayout row="4" colspan="2">
                 <Image src="https://avatars1.githubusercontent.com/u/36663266?s=400&v=4" stretch="aspectFit" />
             </StackLayout>
             
