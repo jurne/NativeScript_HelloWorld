@@ -30,8 +30,8 @@
             <StackLayout row="3" col="1">
                 <Label text="{{ followers }}" textWrap="true" />
             </StackLayout>
-             <StackLayout row="4" colspan="2">
-                <Image src="https://avatars1.githubusercontent.com/u/36663266?s=400&v=4" stretch="aspectFit" />
+             <StackLayout row="4" colSpan="2">
+                <Image src="{{ avatar }}" stretch="aspectFit" />
             </StackLayout>
             
         </GridLayout>
